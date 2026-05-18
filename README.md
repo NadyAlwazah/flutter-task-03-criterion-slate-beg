@@ -40,7 +40,9 @@ assets/images/criterion_slate_ui.png
 ## 🚀 Run Instructions
 ```bash
 flutter pub get
-flutter run
+flutter run    
+
+---
 
 
 

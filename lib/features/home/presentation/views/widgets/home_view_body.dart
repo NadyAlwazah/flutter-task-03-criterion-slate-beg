@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task_3_criterion_slate_beg/core/utlis/styles.dart';
+import 'package:flutter_task_3_criterion_slate_beg/features/home/presentation/views/widgets/grid_view_body.dart';
 import 'package:flutter_task_3_criterion_slate_beg/features/home/presentation/views/widgets/section_title.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -21,6 +22,15 @@ class HomeViewBody extends StatelessWidget {
             SizedBox(height: 16),
             sectionTitle(title: "Essential Tones"),
             Divider(color: Color(0xFFEFF1F1)),
+            Container(
+              decoration: BoxDecoration(color: Color(0xFFF3F4F5)),
+              width: double.infinity,
+              child: GridViewBody(),
+            ),
+            SizedBox(height: 24),
+            sectionTitle(title: "The Frame"),
+            Divider(color: Color(0xFFEFF1F1)),
+            SizedBox(height: 16),
           ],
         ),
       ),
