@@ -44,7 +44,7 @@ flutter run
 
 
 
-🧑‍💻 Author
-Nady Alwazah  
-Faculty of Informatics Engineering — Syria
-GitHub: https://github.com/NadyAlwazah (github.com in Bing)
+## 🧑‍💻 Author
+**Nady Alwazah**  
+Faculty of Informatics Engineering — Syria  
+GitHub: https://github.com/NadyAlwazah
