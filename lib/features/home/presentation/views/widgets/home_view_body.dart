@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task_3_criterion_slate_beg/core/utlis/styles.dart';
 import 'package:flutter_task_3_criterion_slate_beg/features/home/presentation/views/widgets/grid_view_body.dart';
+import 'package:flutter_task_3_criterion_slate_beg/features/home/presentation/views/widgets/info_card.dart';
 import 'package:flutter_task_3_criterion_slate_beg/features/home/presentation/views/widgets/section_title.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -31,6 +32,22 @@ class HomeViewBody extends StatelessWidget {
             sectionTitle(title: "The Frame"),
             Divider(color: Color(0xFFEFF1F1)),
             SizedBox(height: 16),
+            InfoCard(
+              label: "DIRECTION",
+              title: "Visual Language",
+              text:
+                  "A single shot can speak volumes.The director's eye defines the boundary between reality and art.",
+            ),
+            SizedBox(height: 12),
+            sectionTitle(title: "The Masterpiece"),
+            Divider(),
+            SizedBox(height: 16),
+            InfoCard(
+              label: "RESOLUTION",
+              title: "Enduring Impact",
+              text:
+                  "Every frame is a brushstroke. A masterpiece isn't just seen; it's felt forever.",
+            ),
           ],
         ),
       ),
